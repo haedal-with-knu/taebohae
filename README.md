@@ -5,6 +5,7 @@
 
 [성록이가 소개하는 태보해 프로젝트](pdf/taebohaeProject.pdf)
 
-# 시작합니다
+# Purpose of HABOHAE Project
+> To enhance our coding skills with Python
 
 
