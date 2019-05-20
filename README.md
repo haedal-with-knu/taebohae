@@ -7,5 +7,10 @@
 
 # Purpose of HABOHAE Project
 > To enhance our coding skills with Python
+>> what
+>>> the
+>>>> fuc
+>>>>> king
+>>>>>> is
 
 
