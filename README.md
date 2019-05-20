@@ -9,8 +9,7 @@
 
 > To enhance our coding skills of Python
 
-Nowadays, we have hard time to get better grades and higher specs.
-As a result, we are going to forget what is really important.
+Nowadays, we have hard time to getting better grades and higher specs. As a result, we are going to forget what is really important. we just accumulate meaningless history which is not we want to do.
 
 
 
