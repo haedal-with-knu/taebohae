@@ -5,9 +5,12 @@
 
 [성록이가 소개하는 태보해 프로젝트](pdf/taebohaeProject.pdf)
 
-# Purpose of HABOHAE Project
+# The purpose of HABOHAE Project
 
-> To enhance our coding skills with Python
+> To enhance our coding skills of Python
+
+Nowadays, we have hard time to get better grades and higher specs.
+As a result, we are going to forget what is really important.
 
 
 
