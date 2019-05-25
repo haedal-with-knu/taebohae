@@ -1,3 +1,18 @@
+# 빵형과 함께하는 태보해 프로젝트  
+![Github](04.png)  
+  
+[빵형의 개발도상국 유튜브(https://www.youtube.com/channel/UC9PB9nKYqKEx_N3KM-JVTpg)](https://www.youtube.com/channel/UC9PB9nKYqKEx_N3KM-JVTpg "title")  
+  
+  **저희가 빵형님께 해드릴수 있는건 좋아요, 구독, 댓글뿐입니다!!**  
+  **귀찮으시더라도 한번만 부탁드릴께요!!**
+
+-----------------
+
+## 1장. 진화 알고리즘으로 스폰지밥을 그려보자!
+
+
+
+
 
 ### 모듈을 설치하는 방법
   #### 1. 설치파일로 설치하는 방법  
