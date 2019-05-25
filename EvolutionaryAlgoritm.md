@@ -263,7 +263,7 @@
 > 
 >   #### 사용 방법   
 >    1. import numpy ( numpy 모듈을 import 해줍니다.)   
->     2. array.shape ( 행렬형의 튜플 array를 객체에 넣어줍니다.)
+>    2. array.shape ( 행렬형의 튜플 array를 객체에 넣어줍니다.)
 >  
 >  #### 사용 예시  
 >  > ##### [코드창]    
