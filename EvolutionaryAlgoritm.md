@@ -3,8 +3,8 @@
   
 [빵형의 개발도상국 유튜브(https://www.youtube.com/channel/UC9PB9nKYqKEx_N3KM-JVTpg)](https://www.youtube.com/channel/UC9PB9nKYqKEx_N3KM-JVTpg "title")  
   
-  저희가 빵형님께 해드릴수 있는건 좋아요, 구독, 댓글뿐입니다  
-  귀찮으시더라도 한번만 부탁드릴께요!!  
+ #### 저희가 빵형님께 해드릴수 있는건 좋아요, 구독, 댓글뿐입니다  
+ #### 귀찮으시더라도 한번만 부탁드릴께요!!  
 　  
 　  
  　 
@@ -166,7 +166,7 @@
   </div>
 </details>  
 <details>
-  <summary>os.path.splitext() 함수</summary>
+ <summary>os.path.splitext() 함수</summary>
   <div markdown="1">  
 
   ### os 모듈 - os.path.splitext() 함수
