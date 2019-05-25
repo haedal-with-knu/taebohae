@@ -3,8 +3,8 @@
   
 [빵형의 개발도상국 유튜브(https://www.youtube.com/channel/UC9PB9nKYqKEx_N3KM-JVTpg)](https://www.youtube.com/channel/UC9PB9nKYqKEx_N3KM-JVTpg "title")  
   
-  **저희가 빵형님께 해드릴수 있는건 좋아요, 구독, 댓글뿐입니다**  
-  **귀찮으시더라도 한번만 부탁드릴께요!!**
+  저희가 빵형님께 해드릴수 있는건 좋아요, 구독, 댓글뿐입니다  
+  귀찮으시더라도 한번만 부탁드릴께요!!  
 　  
 　  
  　 
@@ -23,7 +23,7 @@
 ### 주제 소개  
 절대태보해! 안녕하세요 태보해 프로젝트를 진행하게된 김성록입니다!  
 저희가 처음으로 구현해볼 것은 '진화 알고리즘'을 통해 원본이미지를 똑같이 그려보는 프로그램입니다.  
-![Github](09.png)  
+![Github](spongebob.jpg)  
 그래서 저희는 무작위의 (크기, 색깔, 위치)를 가지는 원을 찍어가면서 이 스폰지밥 이미지와 똑같이 되도록 할 거예요.  
 ![Github](07.png)  
 유전적 알고리즘(진화 알고리즘전에 알고 가셔야 합니다)  
@@ -100,7 +100,7 @@
   
 #### 모듈 부분　  
 ![Github](02.png)    
-filepath = sys.argv[1]  
+**filepath = sys.argv[1]**  
   -> 변수 filepath에 sys.argv[1]를 초기화시켜줍니다.  
 <details>
   <summary>sys.argv[] 함수</summary>
@@ -134,7 +134,7 @@ filepath = sys.argv[1]
   </div>
 </details>  
   
-filename, ext = os.path.splitext(os.path.basename(filepath))  
+**filename, ext = os.path.splitext(os.path.basename(filepath))**  
   -> filepath에 저장된 파일을 불러와 파일이름과 확장자명을 분리해서 따로 저장해줍니다.  
 <details>
   <summary>os.path.basename() 함수</summary>
