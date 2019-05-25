@@ -99,7 +99,7 @@
  
   
   
-#### 모듈 부분　  
+## 모듈 부분　  
 ![Github](02.png)    
 **filepath = sys.argv[1]**  
   -> 변수 filepath에 sys.argv[1]를 초기화시켜줍니다.  
@@ -109,23 +109,23 @@
 
   ### sys 모듈 - argv[] 함수
 
-  ##### 함수 의미
+  #### 함수 의미
     개발자가 입력하는 명령어를 string으로 받는 함수  
 
-  ##### 입력 형식
+  #### 입력 형식
     sys.argv[int]  
 
-  ##### 반환 형식
+  #### 반환 형식
     string
 
-  ##### 사용 방법   
+  #### 사용 방법   
     1. import sys ( sys 모듈을 import 해줍니다.)   
     2. sys.argv[n] ( int형의 순서 n을 넣어줍니다.)   
 
-  ##### 사용 예시  
-  > ###### [cmd창]    
+  #### 사용 예시  
+  > ##### [cmd창]    
   >     python d:\argvTest.py arg1 arg2  
-  > ###### [결과창]
+  > ##### [결과창]
   >     argv[0] value = argvTest (파일이름;디폴트값)  
   >     argv[1] value = arg1  
   >     argv[2] value = arg2  
@@ -143,23 +143,23 @@
 
   ### os 모듈 - os.path.basename() 함수
 
-  ##### 함수 의미
+  #### 함수 의미
     파일을 보여주는 함수 / 형식에 맞지않으면 아무것도 나오지 않습니다.  
 
-  ##### 입력 형식
+  #### 입력 형식
     os.path.basename(string)
 
-  ##### 반환 형식
+  #### 반환 형식
     string
 
-  ##### 사용 방법   
+  #### 사용 방법   
     1. import os ( os 모듈을 import 해줍니다.)   
     2. os.path.basename(name) ( string형의 파일경로 name을 넣어줍니다.)   
 
-  ##### 사용 예시  
-  > ###### [코드창]    
+  #### 사용 예시  
+  > ##### [코드창]    
   >     name = c:\temp\python\data.txt  
-  > ###### [결과창]
+  > ##### [결과창]
   >     os.path.basename(name) = “data.txt”  
 
    -----------
@@ -172,23 +172,23 @@
 
   ### os 모듈 - os.path.splitext() 함수
 
-  ##### 함수 의미
+  #### 함수 의미
     확장자만 따로 떨어뜨리는 함수  
 
-  ##### 입력 형식
+  #### 입력 형식
     os.path.splitext(string)
 
-  ##### 반환 형식
+  #### 반환 형식
     string, string
 
-  ##### 사용 방법   
+  #### 사용 방법   
     1. import os ( os 모듈을 import 해줍니다.)   
     2. os.path.splitext(name) ( string형의 파일이름 name을 넣어줍니다.)   
 
-  ##### 사용 예시  
-  > ###### [코드창]    
+  #### 사용 예시  
+  > ##### [코드창]    
   >     name = data.txt 
-  > ###### [결과창]
+  > ##### [결과창]
   >     os.path.splitext(name) = “data”, “.txt”  
 
    -----------
