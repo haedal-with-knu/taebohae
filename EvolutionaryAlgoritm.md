@@ -278,3 +278,19 @@
 >
 >  </div>
 ></details>  
+　  
+ 　  
+    
+![Github](09.png)  
+### hyperparameters  
+> -> 미리 세팅되는 값들, 기계 학습과정에서 주로 사용합니다.
+>  
+>  n_initial_genes = 50 // 1세대 인구 : 50  
+>  n_population = 50 // n세대 인구 : 50  
+>  prob_mutation = 0.01 // 돌연변이가 발생할 확률 : 1%  
+>  prob_add = 0.3 // 새로운 유전자(원)가 추가될 확률 : 30%  
+>  prob_remove = 0.2 // 원래 유전자(원)가 사라질 확률 : 20$  
+>  
+>  min_radius, max_radius = 5, 15 // 최소 반지름 : 5, 최대 반지름 : 15  
+>  save_every_n_iter = 100 // 100세대마다 이미지를 저장  
+
