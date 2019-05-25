@@ -99,9 +99,11 @@
  
   
   
-## 모듈 부분　  
+## 모듈 부분　 
+  
+  
 ![Github](02.png)    
-**filepath = sys.argv[1]**  
+### filepath = sys.argv[1]  
   -> 변수 filepath에 sys.argv[1]를 초기화시켜줍니다.  
 <details>
   <summary>sys.argv[] 함수</summary>
@@ -135,7 +137,7 @@
   </div>
 </details>  
   
-**filename, ext = os.path.splitext(os.path.basename(filepath))**  
+### filename, ext = os.path.splitext(os.path.basename(filepath))  
   -> filepath에 저장된 파일을 불러와 파일이름과 확장자명을 분리해서 따로 저장해줍니다.  
 <details>
   <summary>os.path.basename() 함수</summary>
@@ -190,6 +192,87 @@
   >     name = data.txt 
   > ##### [결과창]
   >     os.path.splitext(name) = “data”, “.txt”  
+
+   -----------
+
+  </div>
+</details>  
+　  
+ 　  
+    
+![Github](03.png)  
+### img = cv2.imread(filepath)  
+  -> 변수 img에 filepath를 읽어서 초기화시켜줍니다.  
+<details>
+ <summary>cv2.imread() 함수</summary>
+  <div markdown="1">  
+
+  ### Opencv 모듈 - cv2.imread() 함수
+
+  #### 함수 의미
+    이미지 파일을 flag값에 따라서 읽어들이는 함수  
+
+  #### 입력 형식
+    cv2.imread(String, int)  
+
+  #### 반환 형식
+    numpy.ndarray  
+    // numpy 모듈의 행렬함수 형식  
+    // (행(Y축)값, 열(X축)값, 만나는지점 값이 가진 원소의 개수) 3차원 행렬형식의 모임으로 반환됨  
+    // 만나는지점 값이 가진 원소의 개수 : BGR값(Blue, Green, Red)    
+
+  #### 사용 방법   
+    1. import cv2 ( Opencv 모듈을 import 해줍니다.)   
+    2. cv2.imread(name, flag) ( 이미지파일의 경로를 flag 값에 따라 읽어들입니다.)
+   > ##### flag  
+   >     0( cv2.IMREAD_color ) : 이미지파일을 컬러로읽어들입니다. 투명한부분은 무시됩니다. <default>  
+   >     1( cv2.IMREAD_grayscale) : 이미지파일을 흑백으로 읽어들입니다.  
+   >     2( cv2.IMREAD_unchanged) : 이미지파일을 알파채널까지 포함하여 읽어들입니다.  
+  
+  #### 사용 예시  
+  > ##### [코드창]    
+  >     import cv2  
+  >     filename = ‘lena.jpg’  
+  >     original = cv2.imread(filename, cv2.IMREAD_COLOR)  
+  > ##### [결과창]
+  >     original = ( [0,1,…,206], [0,1,…,205], [Blue, Green, Red] )  
+  >     (뒤에 배울 cv2.imshow()함수를 사용해 윈도우창에서 볼 수 있음)  
+
+   -----------
+
+  </div>
+</details>  
+  
+### height, width, channels = img.shape  
+  -> img의 3개 차원값들을 각각 초기화  
+<details>
+ <summary>numpy.ndarray.shape 함수</summary>
+  <div markdown="1">  
+
+  ### numpy 모듈 - numpy.ndarray.shape 함수
+
+  #### 함수 의미
+    n차원행렬의 튜플을 구하는 함수
+
+  #### 입력 형식
+    numpy.ndarray.shape ( 튜플의 행렬형태 )
+
+  #### 반환 형식
+    numpy.ndarray.shape ( 튜플의 행렬형태 )
+    // 각 차원의 개수  
+
+  #### 사용 방법   
+    1. import numpy ( numpy 모듈을 import 해줍니다.)   
+    2. array.shape ( 행렬형의 튜플 array를 객체에 넣어줍니다.)
+  
+  #### 사용 예시  
+  > ##### [코드창]    
+  >     import cv2  
+  >     filename = ‘lena.jpg’ // 가로 206px, 세로 207px인  컬러 이미지  
+  >     original = cv2.imread(filename, cv2.IMREAD_COLOR)  
+  > ##### [결과창]
+  >     original.shape = (207, 206, 3)  
+  >     // ( [0,1,…,206], [0,1,…,205], [Blue, Green, Red] ).shape = (207, 206, 3)  
 
    -----------
 
