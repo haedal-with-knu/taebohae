@@ -20,26 +20,28 @@
 
 ### 모듈과 함수를 호출하는 방법
   
-  import (모듈 이름) : 모듈만 호출하는 방법, 코드 내에서 직접 함수를 호출해야합니다.  
-  import (모듈 이름) as (대체 이름) : 모듈을 이름을 바꿔서 호출하는 방법, 모듈 이름이 너무 길거나 모호할 때 사용합니다.  
-  from (모듈 이름) import (함수 이름) : 모듈 내의 특정 함수만 호출하는 방법.  
-  from (모듈 이름) import * : 모듈 내의 모든 함수를 호출하는 방법.  
+  #### 정의
+    import (모듈 이름) : 모듈만 호출하는 방법, 코드 내에서 직접 함수를 호출해야합니다.  
+    import (모듈 이름) as (대체 이름) : 모듈을 이름을 바꿔서 호출하는 방법, 모듈 이름이 너무 길거나 모호할 때 사용합니다.  
+    from (모듈 이름) import (함수 이름) : 모듈 내의 특정 함수만 호출하는 방법.  
+    from (모듈 이름) import * : 모듈 내의 모든 함수를 호출하는 방법.  
     
-  예시)  
-      import cv2, random, os, sys  
-      -> “cv2(opencv모듈의 이름) , random, os, sys 모듈을 import 하라”  
-        
-      import numpy as np  
-      -> “numpy 모듈을 np로 import 하라”   
-        
-      from copy import deepcopy  
-      -> “copy 모듈의 deepcopy 함수를 import 하라”
-        
-      from skimage.measure import compare_mse  
-      -> “skimage(scikit-image모듈의 이름).measure(skimage의 하위모듈) 모듈의 compare_mse 함수를 import 하라”  
-        
-       import multiprocessing as mp  
-       -> multiprocessing 모듈을 mp로 import 하라”
+  #### 예시
+       
+    import cv2, random, os, sys  
+    -> “cv2(opencv모듈의 이름) , random, os, sys 모듈을 import 하라”  
+  
+    import numpy as np  
+    -> “numpy 모듈을 np로 import 하라”   
+  
+    from copy import deepcopy  
+    -> “copy 모듈의 deepcopy 함수를 import 하라”
+  
+    from skimage.measure import compare_mse  
+    -> “skimage(scikit-image모듈의 이름).measure(skimage의 하위모듈) 모듈의 compare_mse 함수를 import 하라”  
+  
+    import multiprocessing as mp  
+    -> multiprocessing 모듈을 mp로 import 하라”
  
 
 <details>
