@@ -235,7 +235,7 @@
 >   >     filename = ‘lena.jpg’  
 >   >     original = cv2.imread(filename, cv2.IMREAD_COLOR)  
 >   > ##### [결과창]
->   >     original = ( [0,1,…,206], [0,1,…,205], [Blue, Green, Red] )  
+>   >     original == ( [0,1,…,206], [0,1,…,205], [Blue, Green, Red] )  
 >   >     (뒤에 배울 cv2.imshow()함수를 사용해 윈도우창에서 볼 수 있음)  
 > 
 >    -----------
@@ -271,7 +271,7 @@
 >  >     filename = ‘lena.jpg’ // 가로 206px, 세로 207px인  컬러 이미지  
 >  >     original = cv2.imread(filename, cv2.IMREAD_COLOR)  
 >  > ##### [결과창]
->  >     original.shape = (207, 206, 3)  
+>  >     original.shape == (207, 206, 3)  
 >  >     // ( [0,1,…,206], [0,1,…,205], [Blue, Green, Red] ).shape = (207, 206, 3)  
 >
 >   -----------
