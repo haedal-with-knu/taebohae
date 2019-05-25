@@ -226,8 +226,8 @@
 >     2. cv2.imread(name, flag) ( 이미지파일의 경로를 flag 값에 따라 읽어들입니다.)
 >    > ##### flag  
 >    >     0( cv2.IMREAD_color ) : 이미지파일을 컬러로읽어들입니다. 투명한부분은 무시됩니다. <default>  
->    >     1( cv2.IMREAD_grayscale) : 이미지파일을 흑백으로 읽어들입니다.  
->    >     2( cv2.IMREAD_unchanged) : 이미지파일을 알파채널까지 포함하여 읽어들입니다.  
+>    >     1( cv2.IMREAD_grayscale ) : 이미지파일을 흑백으로 읽어들입니다.  
+>    >     2( cv2.IMREAD_unchanged ) : 이미지파일을 알파채널까지 포함하여 읽어들입니다.  
 >   
 >   #### 사용 예시  
 >   > ##### [코드창]    
