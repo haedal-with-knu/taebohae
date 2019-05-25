@@ -103,7 +103,7 @@
   
   
 ![Github](02.png)    
-- ### filepath = sys.argv[1]  
+### filepath = sys.argv[1]  
   -> 변수 filepath에 sys.argv[1]를 초기화시켜줍니다.  
 <details>
   <summary>sys.argv[] 함수</summary>
@@ -137,7 +137,7 @@
   </div>
 </details>  
   
-- ### filename, ext = os.path.splitext(os.path.basename(filepath))  
+### filename, ext = os.path.splitext(os.path.basename(filepath))  
   -> filepath에 저장된 파일을 불러와 파일이름과 확장자명을 분리해서 따로 저장해줍니다.  
 <details>
   <summary>os.path.basename() 함수</summary>
@@ -201,7 +201,7 @@
  　  
     
 ![Github](03.png)  
-- ### img = cv2.imread(filepath)  
+### img = cv2.imread(filepath)  
   -> 변수 img에 filepath를 읽어서 초기화시켜줍니다.  
 <details>
  <summary>cv2.imread() 함수</summary>
@@ -243,7 +243,7 @@
   </div>
 </details>  
   
-- ### height, width, channels = img.shape  
+### height, width, channels = img.shape  
   -> img의 3개 차원값들을 각각 초기화  
 <details>
  <summary>numpy.ndarray.shape 함수</summary>
