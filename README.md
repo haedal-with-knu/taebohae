@@ -13,5 +13,5 @@ Nowadays, we have hard time to getting better grades and higher specs. As a resu
 
 
 
-[1장. 진화알고리즘으로 스폰지밥 그리기](EvolutionaryAlgoritm.md)
+[1장. 진화알고리즘으로 스폰지밥 그리기](./Projects/GeneticAlgoritmSpongebob.ipynb)
 
