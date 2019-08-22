@@ -13,7 +13,7 @@ Nowadays, we have hard time to getting better grades and higher specs. As a resu
 
 
 
-[1장. 진화알고리즘으로 스폰지밥 그리기](./Projects/GeneticAlgoritmSpongebob.ipynb)
+[1장. 진화알고리즘으로 스폰지밥 그리기](./Projects/GeneticSpongebob.ipynb)
 
-[2장. 얼굴인식으로 스노우카메라 만들기](https://nbviewer.jupyter.org/github/CasselKim/codingyahac/blob/master/History/1st_day/Yahac-1.ipynb)
+[2장. 얼굴인식으로 스노우카메라 만들기](./Projects/Snowcam.ipynb)
 
